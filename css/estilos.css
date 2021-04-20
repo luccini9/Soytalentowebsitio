@@ -73,12 +73,14 @@ header .textos-header{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    padding-bottom: 250px;
     
 }
 
 .textos-header h1{
     font-size: 50px;
     color:#fff;
+    
 }
 
 .textos-header h2{
@@ -504,4 +506,128 @@ footer{
     margin: 16px 0;
     font-size: 16px;
   }
-  
+
+/** Header portafolio **/
+
+.headerporta {
+    background: url(../img/transpariencia.jpg);
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 30px;
+
+}
+ 
+.headerporta__texto {
+        text-align: start;
+        color: white;
+        margin-left: 20px;
+    }
+    
+.centrar-texto {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.sobre-portafolio__texto {
+    line-height: 2;
+}
+
+.sobre-portafolio {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+}
+
+.segundoparrafo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+}
+
+.imagenia {
+    margin-top: 6rem; 
+}
+
+/** contactanos **/
+@media (min-width: 768px) {
+    .dos-columnas {
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.contactame {
+    margin-left: 200px; 
+}
+
+.contactanos {
+    background: url(../img/transpariencia.jpg);
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 30px;
+}
+
+.contactanos__texto {
+    text-align: start;
+    color: white;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.llena {
+    padding: 20px 10px 10px 100px;
+}
+
+.contactame {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 100px;
+}
+
+.alinear {
+    padding: 100px 100px;
+}
+
+.subtitulo {
+    margin-left: 150px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.parrafo {
+    margin-left: 170px;
+    padding-top: 2rem;
+}
+
+/** Planes **/
+
+@media (min-width: 768px) {
+    .plan {
+        text-align: center;
+        padding: 20px 20px;
+        font-size: 3rem;
+        color: darkblue;
+    }
+}
+
+@media (min-width: 768px) {
+    .planlogo {
+        margin-left: 200px;
+        margin-bottom: 100px;
+        
+    }
+}
+
+    
+
+
